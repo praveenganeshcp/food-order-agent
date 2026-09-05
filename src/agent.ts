@@ -42,6 +42,7 @@ Important:
     new HumanMessage(userMessage),
   ];
 
+  // In production, do not use while loop, instead use agent orchestration framework like LangGraph
   while (true) {
     /*
      * STEP 1
